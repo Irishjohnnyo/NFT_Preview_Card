@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(217, 54%, 11%);
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+  line-height: 1.6;
+}
+
+section {
+  background-color: hsl(216, 50%, 16%);
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p {
+  color: hsl(215, 51%, 70%);
+  font-size: 14px;
+  font-weight: 300;
+  padding: 2px 0;
+}
+
+span {
+  color: #fff;
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+footer {
+  margin: 0 auto;
+}
+
+.card-img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.card-img:hover {
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 50px;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-wrap: wrap;
+  color: hsl(0, 0%, 100%);
+  width: 360px;
+  min-width: 360px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.specs {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.specs .cyan {
+  color: hsl(178, 100%, 50%);
+  font-weight: 600;
+}
+
+.specs .cyan .ethereum {
+  float: left;
+  padding-right: 5px;
+}
+
+.creator {
+  padding-top: 10px;
+}
+
+.creator p {
+  font-size: 14px;
+  padding: 15px 0px 0 50px;
+}
+
+.creator .avatar {
+  float: left;
+  width: 30px;
+  padding-top: 10px;
+}
+
+.creator .avatar img {
+  border: 1px solid white;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #fff;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
